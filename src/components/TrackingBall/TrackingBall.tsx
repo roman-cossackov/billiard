@@ -1,7 +1,7 @@
 import { useEffect, useRef } from 'react';
 
 import useMousePosition from '../../hooks/useMousePosition';
-import { drawCircle } from '../../utils/drawCircle';
+
 const MouseBall = () => {
   const canvasRef = useRef<HTMLCanvasElement | null>(null);
   const [coords, handleCoords] = useMousePosition();
